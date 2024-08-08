@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Unit Tests
         setup-command: ''
-        command: mvn test
+        command: mvn clean test
         timeout: 2
         max-score: 10
     - name: Autograding Reporter
